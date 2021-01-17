@@ -196,8 +196,8 @@ def main():
             # print(file)
             p = path + '/' + file
             if md_img_replace(p):
-                break # 只处理一个文件，用来测试
-                # pass 
+                break # 一次只处理一个文件，用来测试
+                # pass # 挨个文件执行，直到结束
             i+=1
         
         time.sleep(2)
