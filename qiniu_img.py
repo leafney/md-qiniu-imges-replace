@@ -30,7 +30,7 @@ def md_img_replace(md_file):
         # 输出文件名称
         print('文件：[{0}] 中含有图片'.format(md_file))
         new_post=post
-        for sub_match in matches: # 正则里包含或，所以这里sub_matth是元组
+        for sub_match in matches: # 正则里包含或，所以这里sub_match是元组
             # print(sub_match)
             for match in sub_match:
                 if match and len(match)>0:
